@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: saikishore29/fastapi-order-service:latest
+          image: saikishore29/fastapi-order-service:b48315f4
           ports:
             - containerPort: 3000
           resources:
