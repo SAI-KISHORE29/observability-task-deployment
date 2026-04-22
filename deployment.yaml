@@ -21,6 +21,9 @@ spec:
       containers:
         - name: order-service
           image: saikishore29/fastapi-order-service:9397de38
+          env:
+            - name: SERVICE_NAME
+              value: "Order Service"
           ports:
             - containerPort: 3000
           resources:
@@ -54,5 +57,8 @@ spec:
       containers:
         - name: inventory-service
           image: saikishore29/fastapi-inventory-service:9397de38
+          env:
+            - name: SERVICE_NAME
+              value: "Inventory Service"
           ports:
             - containerPort: 3000
