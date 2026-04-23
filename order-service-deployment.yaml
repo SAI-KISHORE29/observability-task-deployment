@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: saikishore29/fastapi-order-service:4e430a43
+          image: saikishore29/fastapi-order-service:173025d6
           env:
             - name: SERVICE_NAME
               value: "Order Service"
