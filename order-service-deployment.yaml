@@ -4,6 +4,7 @@ metadata:
   name: order-service
   labels:
     app: order-service
+    service: order-service
 spec:
   replicas: 2
   selector:
