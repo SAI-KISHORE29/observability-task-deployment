@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: inventory-service
-          image: saikishore29/fastapi-inventory-service:173025d6
+          image: saikishore29/fastapi-inventory-service:8ebc79bb
           env:
             - name: SERVICE_NAME
               value: "Inventory Service"
